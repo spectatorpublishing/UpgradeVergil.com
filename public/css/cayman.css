@@ -640,6 +640,7 @@ nav .navbar-right {
 }
 .post {
     display: flex;
+
 }
 .user-bubble {
     margin: 14px 13px 14px 12px;
@@ -798,7 +799,7 @@ nav .navbar-right {
 /* Major checklist */
 
 .major-checklist-bubble {
-  margin: 14px 13px 0px 12px;
+  margin: auto;
   max-width: 700px;
   border-radius: 6px;
   border: 1px solid rgba(0, 0, 0, .18);
@@ -827,7 +828,7 @@ nav .navbar-right {
 /* Export Calendar */
 
 .export-bubble {
-  margin: 14px 13px 0px 12px;
+  margin: auto;
   /*margin-left: 100px; */
   max-width: 700px;
   border-radius: 6px;
