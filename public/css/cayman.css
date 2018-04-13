@@ -848,6 +848,33 @@ nav .navbar-right {
 }
 
 
+/* Live Enrollment */
+
+.enrollment-bubble {
+  margin: auto;
+  /*margin-left: 100px; */
+  max-width: 700px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .18);
+  overflow: hidden;
+    
+
+}
+.enrollment-bubble .enrollment-image {
+    border-radius: 6px 6px 0 0;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -5px;
+    width: 745px;
+    height: 180px;
+    
+}
+.enrollment-bubble .enrollment {
+  background-image: url('../images/enrollment2.gif');
+}
+
+
 
 
 
