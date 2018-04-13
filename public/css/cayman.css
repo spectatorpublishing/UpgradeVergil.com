@@ -529,8 +529,8 @@ a:hover {
     display: flex;
     font-weight: bold;
     align-items: center;
-    max-width: 64rem;
-    margin: 0.5rem auto;
+    max-width: 100%;
+    margin: 0rem auto;
 }
 
 .site-footer-credits {
@@ -550,6 +550,8 @@ a:hover {
 
 .footer-links {
     text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 @media screen and (min-width: 64em) {
@@ -642,124 +644,6 @@ nav .navbar-right {
     display: flex;
 
 }
-.user-bubble {
-    margin: 14px 13px 14px 12px;
-    margin-left: auto;
-    max-width: 350px;
-    background-color: #4080ff;
-    padding: 7px 10px 6px;
-    border-radius: 18px;
-    color: white;
-}
-.bot-bubble {
-    margin: 14px 13px 14px 12px;
-    max-width: 350px;
-    background-color: #f1f0f0;
-    padding: 7px 10px 6px;
-    border-radius: 18px;
-    color: black;
-}
-.directory-bubble {
-    margin: 14px 13px 14px 12px;
-    max-width: 750px;
-    border-radius: 18px;
-    border: 1px solid rgba(0, 0, 0, .18);
-}
-.directory-top {
-    padding: 8px;
-}
-.directory-person {
-    font-weight: bold;
-}
-.directory-title {
-    color: rgba(0, 0, 0, .40);
-}
-.directory-more-info {
-    color: #365899;
-    border-top: 1px solid rgba(0, 0, 0, .10);
-    font-weight: bold;
-    line-height: 2rem;
-    text-align: center;
-}
-.location-bubble {
-    display: flex;
-    align-items: center;
-    border-radius: 18px;
-    border: 1px solid #0084ff;
-    margin: 12px auto;
-    padding: 7px 10px 6px;
-    color: #0084ff;
-}
-.your-location-bubble {
-    margin: 14px 13px 14px 12px;
-    margin-left: auto;
-    max-width: 350px;
-    border-radius: 18px;
-    border: 1px solid rgba(0, 0, 0, .18);
-    overflow: hidden;
-}
-.your-location-bubble .your-location-top {
-    border-radius: 18px 18px 0 0;
-    background-image: url("https://external.xx.fbcdn.net/static_map.php?v=28&osm_provider=3&size=545x280&zoom=15&markers=40.80644399%2C-73.96165609&language=en");
-    background-position: 50% 50%;
-    margin: 0px;
-    width: 300px;
-    height: 240px;
-}
-.your-location-bubble .your-location-bot {
-    border-top: 1px solid rgba(0, 0, 0, .10);
-    padding: 7px 10px 6px;
-    font-weight: bold;
-}
-.requested-location-bubble {
-    margin: 14px 13px 14px 12px;
-    max-width: 650px;
-    border-radius: 18px;
-    border: 1px solid rgba(0, 0, 0, .18);
-    overflow: hidden;
-}
-.requested-location-bubble .requested-location-top {
-    border-radius: 18px 18px 0 0;
-    background-image: url("https://external.xx.fbcdn.net/static_map.php?v=28&osm_provider=3&size=545x280&zoom=15&markers=40.806586200000005%2C-73.9643908&language=en");
-    background-position: 50% 50%;
-    margin: 0px;
-    width: 300px;
-    height: 240px;
-}
-.requested-location-bubble .requested-location-bot {
-    border-top: 1px solid rgba(0, 0, 0, .10);
-    padding: 7px 10px 6px;
-    font-weight: bold;
-}
-
-.requested-menu-bubble {
-  margin: 14px 13px 0px 12px;
-  max-width: 700px;
-  border-radius: 6px;
-  border: 1px solid rgba(0, 0, 0, .18);
-  overflow: hidden;
-}
-.requested-menu-bubble .requested-menu-image {
-    border-radius: 6px 6px 0 0;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0px;
-    width: 950px;
-    height: 240px;
-}
-
-.requested-menu-bubble .feature-3 {
-    background-image: url('../images/checklist.jpg')
-}
-.requested-menu-bubble .feature-4 {
-    background-image: url('../images/export.jpg')
-}
-.requested-menu-bubble .requested-menu-text {
-    border-top: 1px solid rgba(0, 0, 0, .10);
-    padding: 7px 10px 6px;
-    font-weight: bold; 
-}
 
 
 /*  Smart Search */
@@ -842,17 +726,68 @@ nav .navbar-right {
     background-position: 25% 25%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0px;
-    width: 450px;
-    height: 80px;
+    margin: -5px;
+    width: 750px;
+    height: 200px;
     
 }
 .export-bubble .feature-4 {
-  background-image: url('../images/export.gif');
+  background-image: url('../images/export-cursor2.gif');
 }
 
 
+/* Live Enrollment */
 
+.enrollment-bubble {
+  margin: auto;
+  /*margin-left: 100px; */
+  max-width: 700px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .18);
+  overflow: hidden;
+    
+
+}
+.enrollment-bubble .enrollment-image {
+    border-radius: 6px 6px 0 0;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: -5px;
+    width: 745px;
+    height: 180px;
+    
+}
+.enrollment-bubble .enrollment {
+  background-image: url('../images/enrollment2.gif');
+}
+
+
+/*Upcoming Features*/
+
+.upcoming-bubble {
+  margin: auto;
+  max-width: 700px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .18);
+  overflow: hidden;
+    
+
+}
+.upcoming-bubble .upcoming-image {
+    border-radius: 6px 6px 0 0;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin: 0px;
+    width: 300px;
+    height: 360px;
+    display: none; 
+    
+}
+.upcoming-bubble .billy {
+  background-image: url('../images/billy.jpg');
+}
 
 
 
