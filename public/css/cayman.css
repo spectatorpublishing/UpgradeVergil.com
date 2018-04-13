@@ -749,11 +749,7 @@ nav .navbar-right {
     height: 240px;
 }
 
-.requested-menu-bubble .feature-3 {
-    background-image: url('../images/checklist.jpg')
-}
-.requested-menu-bubble .feature-4 {
-    background-image: url('../images/export.jpg')
+
 }
 .requested-menu-bubble .requested-menu-text {
     border-top: 1px solid rgba(0, 0, 0, .10);
@@ -842,13 +838,13 @@ nav .navbar-right {
     background-position: 25% 25%;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0px;
-    width: 450px;
-    height: 80px;
+    margin: -5px;
+    width: 750px;
+    height: 200px;
     
 }
 .export-bubble .feature-4 {
-  background-image: url('../images/export.gif');
+  background-image: url('../images/export-cursor2.gif');
 }
 
 
