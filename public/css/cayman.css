@@ -529,8 +529,8 @@ a:hover {
     display: flex;
     font-weight: bold;
     align-items: center;
-    max-width: 64rem;
-    margin: 0.5rem auto;
+    max-width: 100%;
+    margin: 0rem auto;
 }
 
 .site-footer-credits {
@@ -550,6 +550,8 @@ a:hover {
 
 .footer-links {
     text-align: center; 
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 @media screen and (min-width: 64em) {
@@ -875,7 +877,30 @@ nav .navbar-right {
 }
 
 
+/*Upcoming Features*/
 
+.upcoming-bubble {
+  margin: auto;
+  max-width: 700px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, .18);
+  overflow: hidden;
+    
+
+}
+.upcoming-bubble .upcoming-image {
+    border-radius: 6px 6px 0 0;
+    background-position: 25% 25%;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin: 0px;
+    width: 300px;
+    height: 360px;
+    
+}
+.upcoming-bubble .billy {
+  background-image: url('../images/billy.jpg');
+}
 
 
 
