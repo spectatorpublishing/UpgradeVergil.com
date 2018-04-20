@@ -36,6 +36,8 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="./css/cayman.css">
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fmnpigaaakmkakgbpfodkgighdnhnnbp">
+
   <script>
 window.onscroll = function() {
   var nav = document.getElementById("nav");
@@ -44,6 +46,9 @@ window.onscroll = function() {
   if (first_nav_height < 0) first_nav_height = 0;
   nav.style.maxHeight = first_nav_height + "px";
 };
+
+chrome.webstore.install("https://chrome.google.com/webstore/detail/fmnpigaaakmkakgbpfodkgighdnhnnbp"); 
+
 </script>
 </head>
 
@@ -108,10 +113,18 @@ Enhance your registration experience with Vergil Plus, a Google Chrome extension
                     class="fb-message"
                     target="_blank"
                 >
-                  <div> Download Now </div>
+                  <div onclick="chrome.webstore.install()" id="install-button"> Download Now </div>
+                  <script>
+                      if (chrome.app.isInstalled) {
+                        document.getElementById('install-button').style.display = 'none';
+                      }
+                  </script>  <!-- https://developer.chrome.com/webstore/inline_installation?csw=1 -->
                 </a>
             </div>
-    	</div>
+
+            <i class="arrow-down"></i>
+
+                      
     </section>
 </div>
 
