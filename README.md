@@ -17,8 +17,10 @@ upgradevergil.com is built using
 In addition, it is built off the Jekyll theme Cayman
 
 ## Contributors
-- [William Chiu](https://github.com/WilliamChiu)
 - [Katherine Patton](https://github.com/kyp2106) 
+- [Raymond Li](https://github.com/ray725)
+- [William Chiu](https://github.com/WilliamChiu)
+
 
 
 
