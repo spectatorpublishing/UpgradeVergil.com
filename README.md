@@ -1,5 +1,5 @@
 # Project Title
-VES-Site
+UpgradeVergil.com
 
 ## Purpose
 This repository contains the code for the Vergil Plus website. This website provides information on Columbia Spectator's chrome extension Vergil Plus. 
@@ -14,6 +14,7 @@ upgradevergil.com is built with
 * HTML
 * CSS
 * JavaScript
+* Jekyll themes 
 
 ## Contributors
 - [William Chiu](https://github.com/WilliamChiu)
