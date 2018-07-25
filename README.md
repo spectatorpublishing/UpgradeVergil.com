@@ -16,8 +16,8 @@ upgradevergil.com is built with
 * JavaScript
 
 ## Contributors
--[William Chiu](https://github.com/WilliamChiu) 
--[Katherine Patton](https://github.com/kyp2106) 
+- [William Chiu](https://github.com/WilliamChiu)
+- [Katherine Patton](https://github.com/kyp2106) 
 
 
 
